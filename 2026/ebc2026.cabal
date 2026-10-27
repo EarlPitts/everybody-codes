@@ -1,0 +1,14 @@
+cabal-version: 3.0
+name:          ebc2026
+version:       0.1.0.0
+build-type:    Simple
+
+library solutions
+  exposed-modules:    Day01
+  build-depends:
+    , base
+    , my-tools
+
+  hs-source-dirs:     .
+  default-extensions: DeriveFunctor
+  default-language:   Haskell2010
